@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.page1{
+    height: 100vh;
+    background: darkslateblue;
+}
+
+.page1 h1{
+    font-family: 'Russo One';
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    animation: showup 5s infinite;
+}
+
+@keyframes showup {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+canvas{
+    position: absolute;
+    top: 25%;
+    width: 10%;
+    height: 10%;
+}
